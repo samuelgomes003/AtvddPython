@@ -1,0 +1,13 @@
+compra_confirmada = True
+dados_compra = 'Compra no valor de R$ 500,00 confirmadae entrega confirmada'
+
+for enviar in range(3):
+  if compra_confirmada:
+    print(dados_compra)
+    print('Detalhes enviados para seu email')
+    print('Sucesso') 
+    break
+  else:
+    print('Compra não confirmada')
+
+# Um codigo que manda um email com os detalhes da compra online (maximo 3 #tentativas) para compras confirmadas """
